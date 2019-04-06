@@ -1,0 +1,2 @@
+class TreatmentSideEffect < ApplicationRecord
+end

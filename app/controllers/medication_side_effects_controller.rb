@@ -1,0 +1,2 @@
+class MedicationSideEffectsController < ApplicationController
+end

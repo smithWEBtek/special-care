@@ -76,7 +76,7 @@
     t.date :start_date
     t.date :end_date
  
-- doctor
+- doctor [SEE CAREGIVER]
     t.string :first_name
     t.string :middle_name
     t.string :last_name
@@ -128,9 +128,6 @@
 
     has_many :prescription_events
     has_many :events, through: :prescription_events
-
-    has_many :patient_medications
-    has_many :patients, through: :patient_medications
 
 - caregiver
     t.string :first_name
